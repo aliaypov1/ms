@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(6, 6, 35, 0.795);
+    color: aliceblue;
+}
+button{
+    background: none;
+    border: none;
+    color: aliceblue;
+
+
+}
+.title{
+    font-size: 79px;
+    text-align: center;
+    color: aliceblue;
+}
+.timer{
+    text-align: center;
+}
+.timer__time{
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+.timer__btn{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: .6s;
+
+}
+.ms{
+    background-color: rgb(213, 163, 97);
+   padding: 40px 0;
+  
+}
+.sm-title{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+}
+.desc{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 200px;
+}
+.timer__btn:hover{
+    opacity: .7;
+}
+.timer__btn_succes{
+background-color: green;
+}
+.timer__btn_warn{
+    background-color: orange;
+}
+.timer__btn_danger{
+    background-color: red;
+}
